@@ -96,12 +96,12 @@ Fact table:
 
 
 project-root/
-│
-├── notebooks/ # Databricks notebooks
-├── adf/ # ADF ARM template / pipeline JSON
-├── sql/ # SQL scripts (if any)
-├── images/ # Architecture and pipeline screenshots
-└── README.md
+
+- notebooks/ # Databricks notebooks
+- adf/ # ADF ARM template / pipeline JSON
+- sql/ # SQL scripts (if any)
+- images/ # Architecture and pipeline screenshots
+ README.md
 
 ## How to Run
 
