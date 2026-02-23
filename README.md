@@ -42,7 +42,7 @@ The project follows the Medallion Architecture pattern:
 
 **Output (Image 1):**
 
-![ADF Pipeline](images/1.png)
+![ADF Pipeline](1.png)
 
 ---
 
@@ -54,7 +54,7 @@ The project follows the Medallion Architecture pattern:
 
 **Output (Image 2):**
 
-![Silver to Gold Flow](images/2.png)
+![Silver to Gold Flow](13.png)
 
 ---
 
@@ -75,7 +75,7 @@ Fact table:
 
 **Output (Image 3):**
 
-![SCD Merge Logic](images/3.png)
+![SCD Merge Logic](41.png)
 
 ---
 
@@ -91,7 +91,12 @@ Fact table:
 ---
 
 ## Repository Structure
-
+project-root/
+│
+├── notebooks/ # Databricks notebooks
+├── adf/ # ADF ARM template / pipeline JSON
+├── sql/ # SQL scripts (if any)
+├── images/ # Architecture and pipeline screenshots
 ---
 
 ## How to Run
